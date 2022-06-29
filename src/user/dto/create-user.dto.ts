@@ -14,8 +14,6 @@ export class CreateUserDto {
   @IsString()
   password: string;
 
-  cpf: number;
-
   @IsBoolean()
   admin: boolean;
 }
