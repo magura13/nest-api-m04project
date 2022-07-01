@@ -13,6 +13,8 @@ async function bootstrap() {
     .setDescription('Application to cataloging for cycling events')
     .setVersion('1.0.0')
     .addTag('status')
+    .addTag('user')
+    .addTag('event')
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
