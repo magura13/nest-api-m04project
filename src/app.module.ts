@@ -4,6 +4,7 @@ import { AppService } from './app.service';
 import { UserModule } from './user/user.module';
 import { PrismaModule } from './prisma/prisma.module';
 import { EventModule } from './event/event.module';
+import { EventModule } from './event/event.module';
 
 @Module({
   imports: [UserModule, PrismaModule, EventModule],
